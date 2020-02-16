@@ -3,7 +3,6 @@ Corona Virus Data Using KNIME
 
 
 ###Business Understanding
-----------
 
 Kemungkinan Proses yang dapat dilakukan pada data tersebut antara lain:
 - penemuan jumlah kematian yang disebabkan virus corona berdasarkan negara atau region
@@ -13,7 +12,6 @@ Kemungkinan Proses yang dapat dilakukan pada data tersebut antara lain:
 - dan masih banyak lagi 
 
 ###Data Understanding
-----------
 
 jumlah baris ada 1940, dan kolom yang terdapat pada data tersebut antara lain:
 - **Province/State**: provinsi atau negara bagian
@@ -25,17 +23,16 @@ jumlah baris ada 1940, dan kolom yang terdapat pada data tersebut antara lain:
 - **Death**: jumlah kematian yang disebabkan virus corona
 
 ###Data Preparation
-----------
 
 proses *spliting data* dilakukan untuk memisahkan data negara dari data corona virus. Proses ini dilakukan menggunakan script python yang dapat diakses pada repo saya di [https://github.com/metaufiq/split-data-big-data](https://github.com/metaufiq/split-data-big-data). hasil dari proses  *spliting data* tersebut terdapat pada folder [./output](https://github.com/metaufiq/split-data-big-data/tree/master/output).
 
 ###Modeling
-----------
 
 #####Proses Membaca Data
 terdapat 2 proses membaca data disini yaitu:
 - proses membaca data dari CSV
 - proses membaca data dari Database MySQL
+
 #####Membaca Data Dari CSV
 
 1.  Pilih CSV Reader dan *drag* ke project KNIME
