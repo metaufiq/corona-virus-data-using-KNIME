@@ -39,6 +39,7 @@ terdapat 2 proses membaca data disini yaitu:
   
 #####Membaca Data dari CSV
 1.  Pilih CSV Reader dan *drag* ke project KNIME
+   ![CSV Reader](./../documents/9.jpg)
 2.  Klik kanan pada CSV Reader lalu tekan *Configure*  dan pilih file yang akan dibaca
 3.  Klik kanan pada CSV Reader lalu tekan *Execute*
 
