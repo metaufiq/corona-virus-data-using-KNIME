@@ -41,6 +41,7 @@ terdapat 2 proses membaca data disini yaitu:
 1.  Pilih CSV Reader dan *drag* ke project KNIME
    ![CSV Reader](/documents/1.jpg)
 2.  Klik kanan pada CSV Reader lalu tekan *Configure*  dan pilih file yang akan dibaca
+   ![CSV Reader](/documents/2.jpg) 
 3.  Klik kanan pada CSV Reader lalu tekan *Execute*
 
 #####Membaca Data dari Database MySQL
@@ -75,7 +76,7 @@ Untuk melihat hasil dari operasi join,  klik kanan pada Joiner lalu tekan *Joine
 ----------
 #####Penambahan hasil Join ke Database MySQL
 1.  Pilih DB Insert dan *drag* ke project KNIME
-2. Sambungkan Joiner dan DB Insert
+2. Sambungkan Joiner dan DB connector ke DB Insert
 3.  Klik kanan pada DB Insert lalu tekan *Configure*  dan pilih tabel yang akan dimasukkan hasil dari operasi *JOIN*
 4.  Klik kanan pada DB Insert lalu tekan *Execute*
 
